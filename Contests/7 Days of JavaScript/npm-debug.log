@@ -1,0 +1,309 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'babel-loader',
+1 verbose cli   'babel-core' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'babel-loader', null ]
+7 verbose cache add spec babel-loader
+8 silly cache add args [ 'babel-core', null ]
+9 verbose cache add spec babel-core
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'babel-loader',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'babel-loader',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed babel-loader@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for babel-loader
+13 info addNameTag [ 'babel-loader', 'latest' ]
+14 silly mapToRegistry name babel-loader
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+18 verbose addNameTag registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'babel-core',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'babel-core',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: 'latest',
+19 silly cache add   type: 'tag' }
+20 silly addNamed babel-core@latest
+21 verbose addNamed "latest" is being treated as a dist-tag for babel-core
+22 info addNameTag [ 'babel-core', 'latest' ]
+23 silly mapToRegistry name babel-core
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+27 verbose addNameTag registry:https://registry.npmjs.org/babel-core not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/babel-loader
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 3:31:46 PM
+31 verbose request id 25eb718167306964
+32 verbose etag "G525Q8J4CYM8FYLGW3OD20HU"
+33 http request GET https://registry.npmjs.org/babel-loader
+34 verbose request uri https://registry.npmjs.org/babel-core
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 3:31:46 PM
+37 verbose etag "2RPFS2QF6RGSBLCETV5PEAK8Q"
+38 http request GET https://registry.npmjs.org/babel-core
+39 http 304 https://registry.npmjs.org/babel-loader
+40 verbose headers { date: 'Fri, 12 Feb 2016 08:31:47 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   etag: '"G525Q8J4CYM8FYLGW3OD20HU"',
+40 verbose headers   age: '183',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+40 verbose headers   'x-cache': 'HIT',
+40 verbose headers   'x-cache-hits': '2',
+40 verbose headers   'x-timer': 'S1455265907.525328,VS0,VE0',
+40 verbose headers   vary: 'Accept' }
+41 silly get cb [ 304,
+41 silly get   { date: 'Fri, 12 Feb 2016 08:31:47 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     etag: '"G525Q8J4CYM8FYLGW3OD20HU"',
+41 silly get     age: '183',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-sin6927-SIN',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '2',
+41 silly get     'x-timer': 'S1455265907.525328,VS0,VE0',
+41 silly get     vary: 'Accept' } ]
+42 verbose etag https://registry.npmjs.org/babel-loader from cache
+43 verbose get saving babel-loader to /Users/ptinkosinarmedia/.npm/registry.npmjs.org/babel-loader/.cache.json
+44 silly addNameTag next cb for babel-loader with tag latest
+45 silly addNamed babel-loader@6.2.2
+46 verbose addNamed "6.2.2" is a plain semver version for babel-loader
+47 silly cache afterAdd babel-loader@6.2.2
+48 verbose afterAdd /Users/ptinkosinarmedia/.npm/babel-loader/6.2.2/package/package.json not in flight; writing
+49 verbose afterAdd /Users/ptinkosinarmedia/.npm/babel-loader/6.2.2/package/package.json written
+50 http 304 https://registry.npmjs.org/babel-core
+51 verbose headers { date: 'Fri, 12 Feb 2016 08:31:47 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   etag: '"2RPFS2QF6RGSBLCETV5PEAK8Q"',
+51 verbose headers   age: '16',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+51 verbose headers   'x-cache': 'HIT',
+51 verbose headers   'x-cache-hits': '1',
+51 verbose headers   'x-timer': 'S1455265907.534738,VS0,VE1',
+51 verbose headers   vary: 'Accept' }
+52 silly get cb [ 304,
+52 silly get   { date: 'Fri, 12 Feb 2016 08:31:47 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     etag: '"2RPFS2QF6RGSBLCETV5PEAK8Q"',
+52 silly get     age: '16',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-sin6926-SIN',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '1',
+52 silly get     'x-timer': 'S1455265907.534738,VS0,VE1',
+52 silly get     vary: 'Accept' } ]
+53 verbose etag https://registry.npmjs.org/babel-core from cache
+54 verbose get saving babel-core to /Users/ptinkosinarmedia/.npm/registry.npmjs.org/babel-core/.cache.json
+55 silly addNameTag next cb for babel-core with tag latest
+56 silly addNamed babel-core@6.5.1
+57 verbose addNamed "6.5.1" is a plain semver version for babel-core
+58 silly cache afterAdd babel-core@6.5.1
+59 verbose afterAdd /Users/ptinkosinarmedia/.npm/babel-core/6.5.1/package/package.json not in flight; writing
+60 verbose afterAdd /Users/ptinkosinarmedia/.npm/babel-core/6.5.1/package/package.json written
+61 silly install resolved [ { name: 'babel-loader',
+61 silly install resolved     version: '6.2.2',
+61 silly install resolved     description: 'babel module loader for webpack',
+61 silly install resolved     files: [ 'index.js', 'lib' ],
+61 silly install resolved     dependencies:
+61 silly install resolved      { 'loader-utils': '^0.2.11',
+61 silly install resolved        mkdirp: '^0.5.1',
+61 silly install resolved        'object-assign': '^4.0.1' },
+61 silly install resolved     peerDependencies:
+61 silly install resolved      { 'babel-core': '^6.0.0',
+61 silly install resolved        webpack: '^1.0.0 || 2.0.6-beta || ^2.0.0' },
+61 silly install resolved     devDependencies:
+61 silly install resolved      { 'expect.js': '^0.3.1',
+61 silly install resolved        istanbul: '^0.4.0',
+61 silly install resolved        jscs: '^2.5.0',
+61 silly install resolved        jshint: '^2.8.0',
+61 silly install resolved        mocha: '^2.3.3',
+61 silly install resolved        rimraf: '^2.4.3',
+61 silly install resolved        webpack: '^1.12.2' },
+61 silly install resolved     scripts:
+61 silly install resolved      { test: 'npm run hint && npm run cs && npm run cov',
+61 silly install resolved        cov: 'istanbul cover ./node_modules/.bin/_mocha -- test/*.test.js',
+61 silly install resolved        hint: 'jshint --config .jshintrc index.js lib/* test/*',
+61 silly install resolved        cs: 'jscs --config .jscsrc index.js lib/* test/*' },
+61 silly install resolved     repository:
+61 silly install resolved      { type: 'git',
+61 silly install resolved        url: 'git+https://github.com/babel/babel-loader.git' },
+61 silly install resolved     keywords:
+61 silly install resolved      [ 'webpack',
+61 silly install resolved        'loader',
+61 silly install resolved        '6to5',
+61 silly install resolved        'babel',
+61 silly install resolved        'es6',
+61 silly install resolved        'transpiler',
+61 silly install resolved        'module' ],
+61 silly install resolved     author: { name: 'Luis Couto', email: 'hello@luiscouto.pt' },
+61 silly install resolved     license: 'MIT',
+61 silly install resolved     bugs: { url: 'https://github.com/babel/babel-loader/issues' },
+61 silly install resolved     homepage: 'https://github.com/babel/babel-loader',
+61 silly install resolved     gitHead: 'f74caf300f10f6c11055ed7095f09ed83fd85b2d',
+61 silly install resolved     _id: 'babel-loader@6.2.2',
+61 silly install resolved     _shasum: '31f46096afa5cd6fde2e750348e19cdef87d5d24',
+61 silly install resolved     _from: 'babel-loader@latest',
+61 silly install resolved     _npmVersion: '3.3.12',
+61 silly install resolved     _nodeVersion: '5.4.1',
+61 silly install resolved     _npmUser: { name: 'couto', email: 'hello@luiscouto.pt' },
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: '31f46096afa5cd6fde2e750348e19cdef87d5d24',
+61 silly install resolved        tarball: 'http://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz' },
+61 silly install resolved     maintainers: [ [Object], [Object] ],
+61 silly install resolved     _npmOperationalInternal:
+61 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+61 silly install resolved        tmp: 'tmp/babel-loader-6.2.2.tgz_1454545175608_0.09983447194099426' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-loader/-/babel-loader-6.2.2.tgz',
+61 silly install resolved     readme: 'ERROR: No README data found!' },
+61 silly install resolved   { name: 'babel-core',
+61 silly install resolved     version: '6.5.1',
+61 silly install resolved     description: 'Babel compiler core.',
+61 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+61 silly install resolved     homepage: 'https://babeljs.io/',
+61 silly install resolved     license: 'MIT',
+61 silly install resolved     repository:
+61 silly install resolved      { type: 'git',
+61 silly install resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-core' },
+61 silly install resolved     keywords:
+61 silly install resolved      [ '6to5',
+61 silly install resolved        'babel',
+61 silly install resolved        'classes',
+61 silly install resolved        'const',
+61 silly install resolved        'es6',
+61 silly install resolved        'harmony',
+61 silly install resolved        'let',
+61 silly install resolved        'modules',
+61 silly install resolved        'transpile',
+61 silly install resolved        'transpiler',
+61 silly install resolved        'var' ],
+61 silly install resolved     scripts: { bench: 'make bench', test: 'make test' },
+61 silly install resolved     dependencies:
+61 silly install resolved      { 'babel-code-frame': '^6.3.13',
+61 silly install resolved        'babel-generator': '^6.4.5',
+61 silly install resolved        'babel-helpers': '^6.4.5',
+61 silly install resolved        'babel-messages': '^6.3.13',
+61 silly install resolved        'babel-template': '^6.3.13',
+61 silly install resolved        'babel-runtime': '^5.0.0',
+61 silly install resolved        'babel-register': '^6.5.1',
+61 silly install resolved        'babel-traverse': '^6.4.5',
+61 silly install resolved        'babel-types': '^6.5.1',
+61 silly install resolved        babylon: '^6.4.5',
+61 silly install resolved        'convert-source-map': '^1.1.0',
+61 silly install resolved        debug: '^2.1.1',
+61 silly install resolved        json5: '^0.4.0',
+61 silly install resolved        lodash: '^3.10.0',
+61 silly install resolved        minimatch: '^2.0.3',
+61 silly install resolved        'path-exists': '^1.0.0',
+61 silly install resolved        'path-is-absolute': '^1.0.0',
+61 silly install resolved        private: '^0.1.6',
+61 silly install resolved        'shebang-regex': '^1.0.0',
+61 silly install resolved        slash: '^1.0.0',
+61 silly install resolved        'source-map': '^0.5.0' },
+61 silly install resolved     devDependencies:
+61 silly install resolved      { 'babel-helper-fixtures': '^6.3.13',
+61 silly install resolved        'babel-helper-transform-fixture-test-runner': '^6.3.13',
+61 silly install resolved        'babel-polyfill': '^6.3.13' },
+61 silly install resolved     _id: 'babel-core@6.5.1',
+61 silly install resolved     _shasum: 'e0238d7c16a0c91be8fad65007100458818efca8',
+61 silly install resolved     _from: 'babel-core@latest',
+61 silly install resolved     _npmVersion: '3.3.12',
+61 silly install resolved     _nodeVersion: '5.4.0',
+61 silly install resolved     _npmUser: { name: 'sebmck', email: 'sebmck@gmail.com' },
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: 'e0238d7c16a0c91be8fad65007100458818efca8',
+61 silly install resolved        tarball: 'http://registry.npmjs.org/babel-core/-/babel-core-6.5.1.tgz' },
+61 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+61 silly install resolved     _npmOperationalInternal:
+61 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+61 silly install resolved        tmp: 'tmp/babel-core-6.5.1.tgz_1454897894165_0.23758544796146452' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-core/-/babel-core-6.5.1.tgz',
+61 silly install resolved     readme: 'ERROR: No README data found!' } ]
+62 info install babel-loader@6.2.2 into /usr/local/lib
+63 info install babel-core@6.5.1 into /usr/local/lib
+64 info installOne babel-loader@6.2.2
+65 verbose installOne of babel-loader to /usr/local/lib not in flight; installing
+66 info installOne babel-core@6.5.1
+67 verbose installOne of babel-core to /usr/local/lib not in flight; installing
+68 verbose lock using /Users/ptinkosinarmedia/.npm/_locks/babel-loader-d9a56bad65cb4534.lock for /usr/local/lib/node_modules/babel-loader
+69 verbose lock using /Users/ptinkosinarmedia/.npm/_locks/babel-core-f66c32074df1c770.lock for /usr/local/lib/node_modules/babel-core
+70 silly install write writing babel-loader 6.2.2 to /usr/local/lib/node_modules/babel-loader
+71 silly install write writing babel-core 6.5.1 to /usr/local/lib/node_modules/babel-core
+72 verbose unbuild lib/node_modules/babel-loader
+73 verbose unbuild lib/node_modules/babel-core
+74 silly gentlyRm /usr/local/lib/node_modules/babel-loader is being purged from base /usr/local
+75 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-loader
+76 silly gentlyRm /usr/local/lib/node_modules/babel-core is being purged from base /usr/local
+77 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-core
+78 verbose tar unpack /Users/ptinkosinarmedia/.npm/babel-loader/6.2.2/package.tgz
+79 verbose tar unpacking to /usr/local/lib/node_modules/babel-loader
+80 silly gentlyRm /usr/local/lib/node_modules/babel-loader is being purged
+81 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-loader
+82 verbose tar unpack /Users/ptinkosinarmedia/.npm/babel-core/6.5.1/package.tgz
+83 verbose tar unpacking to /usr/local/lib/node_modules/babel-core
+84 silly gentlyRm /usr/local/lib/node_modules/babel-core is being purged
+85 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-core
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 error tar.unpack untar error /Users/ptinkosinarmedia/.npm/babel-loader/6.2.2/package.tgz
+89 error tar.unpack untar error /Users/ptinkosinarmedia/.npm/babel-core/6.5.1/package.tgz
+90 verbose unlock done using /Users/ptinkosinarmedia/.npm/_locks/babel-loader-d9a56bad65cb4534.lock for /usr/local/lib/node_modules/babel-loader
+91 verbose unlock done using /Users/ptinkosinarmedia/.npm/_locks/babel-core-f66c32074df1c770.lock for /usr/local/lib/node_modules/babel-core
+92 verbose fstream_path /usr/local/lib/node_modules/babel-loader
+93 verbose fstream_type Directory
+94 verbose fstream_class DirWriter
+95 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/babel-loader'
+95 verbose stack     at Error (native)
+96 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+96 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+96 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+97 verbose cwd /Users/ptinkosinarmedia/Dropbox/HackerRank/Contests/7 Days of JavaScript
+98 error Darwin 15.2.0
+99 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "babel-loader" "babel-core"
+100 error node v4.2.6
+101 error npm  v2.14.12
+102 error path /usr/local/lib/node_modules/babel-loader
+103 error code EACCES
+104 error errno -13
+105 error syscall mkdir
+106 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/babel-loader'
+106 error     at Error (native)
+106 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/babel-loader']
+106 error   errno: -13,
+106 error   code: 'EACCES',
+106 error   syscall: 'mkdir',
+106 error   path: '/usr/local/lib/node_modules/babel-loader',
+106 error   fstream_type: 'Directory',
+106 error   fstream_path: '/usr/local/lib/node_modules/babel-loader',
+106 error   fstream_class: 'DirWriter',
+106 error   fstream_stack:
+106 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+106 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+106 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+107 error Please try running this command again as root/Administrator.
+108 verbose exit [ -13, true ]
+109 verbose unbuild lib/node_modules/babel-loader
+110 silly gentlyRm /usr/local/lib/node_modules/babel-loader is being purged from base /usr/local
+111 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-loader
+112 verbose unbuild lib/node_modules/babel-core
+113 silly gentlyRm /usr/local/lib/node_modules/babel-core is being purged from base /usr/local
+114 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/babel-core
